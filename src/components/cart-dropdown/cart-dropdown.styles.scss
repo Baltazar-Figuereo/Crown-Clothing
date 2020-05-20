@@ -15,7 +15,9 @@
       height: 240px;
       display: flex;
       flex-direction: column;
-      overflow: scroll;
+      //overflow: scroll // I have modified this to remove the overflow-x scroll bar.
+      overflow-y: scroll;
+      overflow-x: none;
     }
   
     button {
